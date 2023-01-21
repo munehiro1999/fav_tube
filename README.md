@@ -51,3 +51,6 @@ README~ER 図:1/21 〆切
 メイン機能実装:1/25 - 2/25
 β 番を RUNTEQ 内リリース:2/25 〆切
 本番リリース:三月上旬
+
+■ 画面遷移図
+https://www.figma.com/file/HJqW4NJjZh4lIEMcDZzQs2/Untitled?node-id=0%3A1&t=TFAdyhoULtMmvcSj-1
