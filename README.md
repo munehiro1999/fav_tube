@@ -55,7 +55,7 @@ README~ER 図:1/21 〆切
 ■ 画面遷移図
 https://www.figma.com/file/HJqW4NJjZh4lIEMcDZzQs2/Untitled?node-id=0%3A1&t=TFAdyhoULtMmvcSj-1
 
-■ ER 図
+■ こちら ER 図
 
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=5,IE=9" ><![endif]-->
 <!DOCTYPE html>
