@@ -1,70 +1,24 @@
-# fav_tube
+# README
 
-■ サービス概要
-普段 YouTube を見る人も見ない人も
-ジャンル検索でランダム表示された動画の中で、お気に入りの動画を見つけ投稿
-できるサービスです。
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-■ メインのターゲットユーザー
-20 代〜40 代の男性・女性
+Things you may want to cover:
 
-■ ユーザーが抱える課題
-普段おすすめに出てくる動画の人ばかり見る。
-普段見ている人マンネリ化してきたので、異なるジャンルも見たい
+* Ruby version
 
-■ 解決方法
-この動画・Youtuber が面白いなど、誰かがそれを投稿（シェア）してくれることで
-動画をみる興味やきっかけができる。
+* System dependencies
 
-■ 実装予定の機能
-*ログイン前
-・投稿一覧画面を閲覧できる
-*ユーザー登録画面
-・ユーザー名、メールアドレス、パスワード設定ができる
-*ログイン後
-・ユーザー名、メールアドレス、アイコン、自己紹介の設定・編集ができる
-・ログアウト機能
-・ユーザーフォロー機能
-・投稿をいいね、（自分がした）いいね一覧画面が見れる
-・投稿についたコメントを書くことができる
-*カテゴリごとのランダム動画
-・動画ジャンルをカテゴリごとに振り分けされたボタンから -> 動画を検索 -> 検索された動画をランダムに 5~15 件取得することができる。
-・カテゴリごとの検索で出た動画から、投稿作成へ移る
-*投稿機能
-・紹介したい内容の本文が書くことができる
-・投稿した日時の閲覧
-・動画投稿画面で投稿をツイートすることができる
-*他のユーザーが投稿した内容
-・投稿にコメントを書くことができる　
-・投稿をいいねすることができる
-・投稿したユーザーの詳細が見れる \*投稿一覧画面でカテゴリ別に投稿を振り分け
-　・例、エンタメ・音楽・勉強などに振り分けられるように表示する
+* Configuration
 
-■ なぜこのサービスを作りたいのか？
-　自分自身もそうですが、皆さんも普段から Youtube で動画を見ることが生活の一部になっており、自分の好きな Youtuber を見ることで、ストレス発散・癒やし・モチベーションの上昇に繋がっている人がたくさんいると思います。
-　ただ普段おすすめに出てくる動画を見ていると類似している動画がおすすめされ、見ている動画とは異なるジャンル・Youtuber を知るきっかけがあまり無いなと思いました。
-　なのでこのサービスを使って、普段見ている動画以外に、こうゆう動画のジャンル・Youtuber の方がいるんだという新鮮さを得ること、普段 Youtube を見ない人でも少しでも興味を示すきっかけになればと思いこのサービスを考えました。
+* Database creation
 
-■ スケジュール
-企画〜技術調査:1/15 〆切
-README~ER 図:1/21 〆切
-メイン機能実装:1/25 - 2/25
-β 番を RUNTEQ 内リリース:2/25 〆切
-本番リリース:三月上旬
+* Database initialization
 
-■ 画面遷移図
-https://www.figma.com/file/HJqW4NJjZh4lIEMcDZzQs2/Untitled?node-id=0%3A1&t=TFAdyhoULtMmvcSj-1
+* How to run the test suite
 
-■ ER 図
+* Services (job queues, cache servers, search engines, etc.)
 
-<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=5,IE=9" ><![endif]-->
-<!DOCTYPE html>
-<html>
-<head>
-<title>名称未設定ファイル</title>
-<meta charset="utf-8"/>
-</head>
-<body><div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers tags lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2023-01-23T10:53:20.784Z\&quot; agent=\&quot;5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\&quot; etag=\&quot;HyfjO7xAwAZrOaA1Bvl3\&quot; version=\&quot;20.6.0\&quot; type=\&quot;google\&quot;&gt;&lt;diagram id=\&quot;R2lEEEUBdFMjLlhIrx00\&quot; name=\&quot;Page-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
-<script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
-</body>
-</html>
+* Deployment instructions
+
+* ...
